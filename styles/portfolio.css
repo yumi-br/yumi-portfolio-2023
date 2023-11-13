@@ -1,11 +1,11 @@
 body {
-  background: blueviolet;
+  background: white;
 }
 /*font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
 
 h1 {
-  color: white;
+  color: black;
   font-family: "Playfair Display", serif;
   font-weight: bold;
 }
