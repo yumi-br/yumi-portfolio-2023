@@ -115,6 +115,15 @@ p {
   transition: all 100ms ease-in-out;
 }
 
+.footer-link a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-link a:hover {
+  color: var(--branding-color);
+}
+
 footer {
   margin: 60px 0 20px;
 }
