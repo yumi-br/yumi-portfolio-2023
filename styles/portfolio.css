@@ -62,6 +62,10 @@ h6 {
   text-align: justify;
 }
 
+.hero p a {
+  color: var(--font-color);
+}
+
 .hero h2 {
   font-weight: normal;
   line-height: 1.5;
