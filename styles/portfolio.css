@@ -1,6 +1,7 @@
 :root {
   --branding-color: #6c63ff;
   --secondary-color: #f9f7fe;
+  --font-color: #272142;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -20,7 +21,7 @@ h6 {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 70px;
   line-height: 1.5;
 }
 
@@ -44,28 +45,22 @@ h6 {
   font-size: 20px;
 }
 
-p {
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-}
-
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
   padding: 140px 20px;
 }
 
-.hero img {
+.profile-img {
   border-radius: 50%;
-  margin-bottom: 10px;
 }
 
 .hero p {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 10px;
-  color: #272142;
+  font-size: 16px;
+  color: var(--font-color);
+  line-height: 25px;
+  text-align: justify;
+  padding-left: 20px;
 }
 
 .hero h2 {
@@ -95,8 +90,13 @@ a {
   padding: 15px 30px;
 }
 
+.btn-branding:hover {
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+}
+
 .project-description {
-  padding: 80px 60px;
+  padding: 50px 60px;
 }
 
 .btn-branding-outline {
@@ -114,7 +114,6 @@ a {
 }
 
 .contact-box {
-  background: var(--secondary-color);
   padding: 50px 0;
   text-align: center;
 }
@@ -144,6 +143,10 @@ a {
   transition: all 100ms ease-in-out;
 }
 
+span {
+  color: var(--font-color);
+}
+
 .footer-link a {
   text-decoration: none;
   color: black;
@@ -151,10 +154,6 @@ a {
 
 .footer-link a:hover {
   color: var(--branding-color);
-}
-
-footer {
-  margin: 60px 0 20px;
 }
 
 nav {
