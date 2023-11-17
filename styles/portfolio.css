@@ -246,11 +246,12 @@ form {
     text-align: center;
   }
 
-  #paragraph {
+  .content .paragraph {
     background: var(--secondary-color);
     text-align: center;
     padding: 40px 30px;
     line-height: 2;
+    text-indent: 0;
   }
 
   form {
