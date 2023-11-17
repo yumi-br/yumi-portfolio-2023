@@ -221,7 +221,7 @@ form {
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 64px;
-    line-height: 1.5;
+    line-height: 70px;
   }
 
   .page-heading h1 {
