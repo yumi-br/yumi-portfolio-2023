@@ -1,7 +1,7 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
-  --font-color: #272142;
+  --branding-color: #8c0303;
+  --secondary-color: #d9d7e2;
+  --font-color: #0e0307;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -12,12 +12,16 @@ body {
 
 h1,
 h2,
-h3,
-h4 {
-  color: black;
+h3 {
+  color: var(--font-color);
   font-family: var(--heading-font-family);
   text-align: center;
   font-weight: bold;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .hero,
@@ -61,8 +65,13 @@ h4 {
   font-size: 38px;
 }
 
+.container img {
+  filter: grayscale(40%);
+}
+
 .content-container {
-  padding: 80px 80px;
+  margin: 10px;
+  padding: 60px 60px;
 }
 
 .content {
@@ -72,9 +81,12 @@ h4 {
 .content .paragraph {
   font-size: 16px;
   color: var(--font-color);
-  line-height: 25px;
-  text-align: justify;
-  text-indent: 10%;
+  line-height: 2;
+  text-align: center;
+}
+
+.content .paragraph a {
+  justify-content: center;
 }
 
 a {
@@ -112,9 +124,10 @@ a {
 }
 
 .project-description {
-  padding: 50px 60px;
+  padding: 20px 60px;
   text-align: center;
 }
+
 .project-description a:hover {
   background: var(--branding-color);
   color: white;
@@ -125,18 +138,15 @@ a {
 }
 
 footer {
-  margin: 20px 20px;
+  margin: 0 20px;
+  color: #8c0303;
+  text-align: center;
 }
 
 footer .footer-box {
   background: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
-}
-
-.contact-box a:hover {
-  border: 1px solid var(--branding-color);
-  color: var(--branding-color);
 }
 
 .social-media-box {
@@ -205,7 +215,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
+  color: var(--font-color);
 }
 
 form {
@@ -216,6 +226,12 @@ form {
   text-align: center;
   display: flex;
   justify-content: center;
+}
+
+.side-col {
+  background-color: var(--secondary-color);
+  padding: 0;
+  margin: 0;
 }
 
 @media (max-width: 900px) {
@@ -237,10 +253,6 @@ form {
     padding: 120px 20px;
   }
 
-  .content-container {
-    padding: 40px 20px;
-  }
-
   .project-description {
     padding: 30px 0;
     text-align: center;
@@ -249,6 +261,7 @@ form {
   .content .paragraph {
     background: var(--secondary-color);
     padding: 40px 30px;
+    font-size: 16px;
     line-height: 2;
   }
 
