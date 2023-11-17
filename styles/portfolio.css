@@ -106,6 +106,7 @@ a {
 .btn-branding:hover {
   border: 1px solid var(--branding-color);
   color: var(--branding-color);
+  background-color: rgba(140, 3, 3, 10%);
 }
 
 .btn-branding-outline {
@@ -126,11 +127,6 @@ a {
 .project-description {
   padding: 20px 60px;
   text-align: center;
-}
-
-.project-description a:hover {
-  background: var(--branding-color);
-  color: white;
 }
 
 .languages {
