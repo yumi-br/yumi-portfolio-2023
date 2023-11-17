@@ -40,7 +40,7 @@ h4 {
 .page-heading h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
   font-size: 24px;
 }
 
@@ -256,6 +256,16 @@ form {
   .project-description {
     padding: 30px 0;
     text-align: center;
+  }
+
+  .content-container {
+    margin: 10px;
+    padding: 0;
+  }
+
+  .content img {
+    margin: 0 auto;
+    padding: 0;
   }
 
   .content .paragraph {
