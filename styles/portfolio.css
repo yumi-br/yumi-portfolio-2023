@@ -50,6 +50,7 @@ h6 {
   background-color: var(--secondary-color);
   text-align: center;
   padding: 140px 20px;
+  margin-bottom: 0;
 }
 
 .hero h2 {
