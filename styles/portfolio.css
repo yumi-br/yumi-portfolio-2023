@@ -166,7 +166,7 @@ footer .footer-box {
   border: 1px solid var(--branding-color);
 }
 
-span {
+.social-links .contact-info {
   color: var(--font-color);
   font-size: 20px;
   justify-content: center;
@@ -259,5 +259,9 @@ form {
 
   nav a {
     font-size: 14px;
+  }
+
+  .social-links .contact-info {
+    font-size: 16px;
   }
 }
