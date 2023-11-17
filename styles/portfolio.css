@@ -168,7 +168,7 @@ footer .footer-box {
 
 span {
   color: var(--font-color);
-  font-size: 22px;
+  font-size: 20px;
   justify-content: center;
 }
 
@@ -255,5 +255,9 @@ form {
 
   form {
     width: 100%;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
