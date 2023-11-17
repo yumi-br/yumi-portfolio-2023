@@ -69,7 +69,7 @@ h4 {
   text-align: center;
 }
 
-.content p {
+.content .paragraph {
   font-size: 16px;
   color: var(--font-color);
   line-height: 25px;
