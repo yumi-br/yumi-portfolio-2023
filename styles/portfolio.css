@@ -248,7 +248,7 @@ form {
 
   #paragraph {
     background: var(--secondary-color);
-    text-align: justify;
+    text-align: center;
     padding: 40px 30px;
     line-height: 2;
   }
