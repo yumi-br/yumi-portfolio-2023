@@ -70,20 +70,15 @@ h4 {
   font-size: 38px;
 }
 
-.container img {
+.project-img img {
   filter: grayscale(40%);
 }
 
 .content-container {
-  margin: 10px;
-  padding: 60px 60px;
-}
-
-.content {
   text-align: center;
 }
 
-.content .paragraph {
+.content-container .paragraph {
   font-size: 16px;
   color: var(--font-color);
   line-height: 2;
@@ -99,17 +94,18 @@ a {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
+  border: 2px solid var(--branding-color);
   color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 200ms ease-in-out;
 }
 
 .btn-branding:hover {
   border: 2px solid var(--branding-color);
   color: var(--branding-color);
   background-color: var(--secondary-color);
-  letter-spacing: 0.05em;
 }
 
 .btn-branding-outline {
@@ -119,11 +115,13 @@ a {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 150ms ease-in-out;
 }
 
 .btn-branding-outline:hover {
   background: var(--branding-color);
   border-radius: 4px;
+  border: 1px solid var(--branding-color);
   color: white;
 }
 
@@ -258,16 +256,15 @@ form {
   }
 
   .content-container {
-    margin: 40px 10px;
     padding: 0;
   }
 
-  .content img {
+  .content-container img {
     margin: 0 auto;
     padding: 0;
   }
 
-  .content .paragraph {
+  .content-container .paragraph {
     background: var(--secondary-color);
     padding: 40px 30px;
     font-size: 16px;
