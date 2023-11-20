@@ -37,7 +37,7 @@ h4 {
 }
 
 .hero h1 {
-  font-size: 96px;
+  font-size: 80px;
   line-height: 1.5;
 }
 
@@ -87,7 +87,8 @@ h4 {
   font-size: 16px;
   color: var(--font-color);
   line-height: 2;
-  text-align: center;
+  text-align: justify;
+  text-indent: 10%;
 }
 
 a {
@@ -270,6 +271,8 @@ form {
     padding: 40px 30px;
     font-size: 16px;
     line-height: 2;
+    text-align: center;
+    text-indent: 0%;
   }
 
   .project-title {
