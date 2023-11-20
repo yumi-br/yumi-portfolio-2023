@@ -165,17 +165,18 @@ footer .footer-box {
 .social-media-links a {
   margin: 0 20px;
   padding: 5px 12px;
+  border: 1px solid var(--branding-color);
   border-radius: 50px;
   font-size: 30px;
   color: var(--secondary-color);
   background-color: var(--branding-color);
+  transition: all 200ms ease-in-out;
 }
 
 .social-media-links a:hover {
   cursor: pointer;
   color: var(--branding-color);
   background-color: var(--seconday-color);
-  transition: all 100ms ease-in-out;
   border: 1px solid var(--branding-color);
 }
 
@@ -212,7 +213,7 @@ nav li {
 nav a {
   font-size: 18px;
   text-decoration: none;
-  color: var(--tertiary-color);
+  color: var(--branding-color);
   transition: all 100ms ease-in-out;
 }
 
