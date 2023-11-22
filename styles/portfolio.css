@@ -178,7 +178,7 @@ footer .footer-box {
   border: 1px solid var(--branding-color);
 }
 
-.social-media-links .email-address {
+.social-media-links .email-link {
   color: var(--font-color);
   font-size: 20px;
   justify-content: center;
