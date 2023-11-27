@@ -231,6 +231,14 @@ form {
   font-size: 18px;
 }
 
+.form-control {
+  width: 400px;
+}
+
+.form-control-message {
+  height: 150px;
+}
+
 @media (max-width: 900px) {
   .hero-primary h1 {
     font-size: 64px;
