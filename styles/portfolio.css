@@ -239,6 +239,10 @@ form {
   height: 150px;
 }
 
+.button-box {
+  align-items: center;
+}
+
 @media (max-width: 900px) {
   .hero-primary h1 {
     font-size: 64px;
